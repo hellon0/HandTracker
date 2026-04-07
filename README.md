@@ -1,4 +1,6 @@
 # HandTracker
-Hand tracker made in python using mediapipe, opencv, and numpy.
+Hand tracker made in python using pytorch and opencv
 
-I didn't do much to code what is currently done myself, but the end goal is to be able to train my own hand tracker using the data from the program that uses mediapipe, and use that new trained network to recognize certain hand gestures. My main idea for this is an ASL to text program, but I'm open to suggestions.
+Currently a work in progress. The MediapipeTracker.py program uses a pre-existing hand tracking algorithm, serving as a goal for my project.
+
+MyHandTracker.ipynb is the current code for the hand tracking model, both initialization and training. The training loop is incomplete and I still need to tweak the structure and architecture of the network.
